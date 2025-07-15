@@ -1,12 +1,12 @@
-# 🧑‍💻 CodeGuess - Проверь, как хорошо ты понимаешь код
+# 🧑‍💻 CodeGuess - Проверь, как хорошо понимаешь код
 
 [![Vue](https://img.shields.io/badge/Vue-555555?logo=vue.js)](https://vuejs.org/)
 [![Pinia](https://img.shields.io/badge/Pinia-555555?logo=vue.js)](https://pinia.vuejs.org/)
 [![Vue Router](https://img.shields.io/badge/Vue_Router-555555?logo=vue.js)](https://router.vuejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-555555?logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-555555?logo=tailwindcss)](https://tailwindcss.com/)
-[![mokky.dev](https://img.shields.io/badge/mokky.dev-555555?logo=json)](https://mokky.dev/)
-[![highlight.js](https://img.shields.io/badge/highlight.js-555555?logo=javascript)](https://highlightjs.org/)
+[![mokky.dev](https://img.shields.io/badge/Mokky.dev-555555?logo=json)](https://mokky.dev/)
+[![highlight.js](https://img.shields.io/badge/Highlight.js-555555?logo=javascript)](https://highlightjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-555555?logo=vite)](https://vitejs.dev/)
 
 ### https://hutt4.github.io/codeguess
@@ -20,7 +20,7 @@
 
 ![Интерфейс](overview/overview.gif)
 
-## 🧬 Поддерживаемые языки
+## 🧬 Доступные языки
 
 - JavaScript
 - Python
@@ -35,8 +35,8 @@
 
 ### Backend и API
 
-- 📦 Используется [mokky.dev](https://mokky.dev) - простой mock-сервер с REST API
-- 📁 Данные о задачах и прогрессе хранятся на сервере
+- 📦 Задачи загружаются с [mokky.dev](https://mokky.dev) - mock-сервера с REST API
+- 💾 Прогресс сохраняется в `localStorage`, чтобы ты мог продолжить позже
 
 ### Интерфейс
 
@@ -55,8 +55,8 @@
 
 ### Backend / Utilities
 
-- [mokky.dev](https://mokky.dev/) - Мок-сервер и REST API
-- [highlight.js](https://highlightjs.org/) - Подсветка синтаксиса
+- [Mokky.dev](https://mokky.dev/) - Мок-сервер и REST API
+- [Highlight.js](https://highlightjs.org/) - Подсветка синтаксиса
 - [Vite](https://vitejs.dev/) - Сборка проекта
 
 ## 🚀 Быстрый старт
