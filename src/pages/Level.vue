@@ -4,7 +4,6 @@ import { useMainStore } from '../stores/main.store'
 import { computed, watch } from 'vue'
 import Codepanel from '../components/Codepanel.vue'
 import Progressbar from '../components/Progressbar.vue'
-import Error from '../components/Error.vue'
 import useInput from '../composables/useInput'
 import Inputs from '../components/Inputs.vue'
 import useTitle from '../composables/useTitle'
@@ -83,10 +82,7 @@ const getInputs = (currentInputs: HTMLInputElement[]) =>
     <Loader />
   </template>
   <template v-else>
-    <Error v-if="!isCorrectLang">There is no such level and language :)</Error>
-    <Error v-else-if="!isCorrectLevel">There is no such level :)</Error>
-
-    <div v-else class="flex flex-col items-center">
+    <div class="flex flex-col items-center">
       <Control
         :level="level"
         :prev-level="prevLevel"
